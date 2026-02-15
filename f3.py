@@ -78,9 +78,10 @@ a = int(input())
 if a%4==0 :
     print(a ," divisible by 4")
 elif a%3==0:print(a ," divisible by 3")
-else:print( a," is not divisible by 5")
+else:print( a," is not divisible by 4 or 3")
 
 print("program end,its done")
+
 
 
 
