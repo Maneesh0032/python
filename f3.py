@@ -66,9 +66,21 @@ else:print( a," is not divisible by 5")
 print("program end,its done")
 
 # find whether the number is divisible by both( 5 and 3 )or not
+a = int(input())
+if a%5==0 and a%3==0:
+    print(a ," divisible by 5 and 3")
+else:print( a," is not divisible by 5 and 3")
 
+print("program end,its done")
 # find whether the number is divisible by any one number between (4 or 3) or not
 
+a = int(input())
+if a%4==0 :
+    print(a ," divisible by 4")
+elif a%3==0:print(a ," divisible by 3")
+else:print( a," is not divisible by 5")
+
+print("program end,its done")
 
 
 
